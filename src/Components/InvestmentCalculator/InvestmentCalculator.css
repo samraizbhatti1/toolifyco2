@@ -1,0 +1,40 @@
+/* Background color for the investment calculator container */
+.investment-calculator-container {
+    background-color: #f0f4f8; /* Light grey-blue background */
+}
+
+/* Style for the calculator card */
+.card {
+    background-color: #ffffff; /* White background for card */
+}
+
+/* Style for the Calculate button */
+.btn-calculate {
+    background-color: #28a745; /* Bright green */
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-calculate:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+/* Styling for the result section */
+.result {
+    font-size: 1.25em;
+    color: #333;
+}
+
+/* Styling for the info button */
+.btn-info {
+    background-color: #17a2b8; /* Bright cyan */
+    border: none;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+    background-color: #117a8b; /* Darker cyan on hover */
+}
+

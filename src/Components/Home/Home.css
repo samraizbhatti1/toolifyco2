@@ -1,0 +1,170 @@
+/* Home.css */
+
+body {
+    background-color: #f0f8ff; /* Light blue background color */
+  }
+  
+  .home-container {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  
+  .icon-container {
+    margin-bottom: 20px; /* Space between rows */
+  }
+  
+  .icon-label {
+    margin-top: 10px; /* Space between icon and text */
+    font-size: 16px; /* Adjust text size if needed */
+  }
+  
+  /* .icon {
+  } */
+  
+  .icon:hover {
+    transform: scale(1.2); /* Scale up the icon on hover */
+    transition: transform 1s ease-in-out, color 1s ease-in-out; /* Animation for hover effect */
+
+  }
+  
+  /* Specific icon colors */
+  .icon-word-counter {
+    color: #4caf50; /* Green */
+  }
+  
+  .icon-youtube {
+    color: #ff0000; /* Red */
+  }
+  
+  .icon-article-writer {
+    color: #3f51b5; /* Blue */
+  }
+  
+  .icon-case-converter {
+    color: #ff9800; /* Orange */
+  }
+  
+  .icon-jpg-to-png {
+    color: #9c27b0; /* Purple */
+  }
+  
+  .icon-png-to-jpg {
+    color: #e91e63; /* Pink */
+  }
+  
+  .icon-password-generator {
+    color: #607d8b; /* Blue Grey */
+  }
+  
+  .icon-age-calculator {
+    color: #009688; /* Teal */
+  }
+  
+  .icon-bmi-calculator {
+    color: #795548; /* Brown */
+  }
+  
+  .icon-investment-calculator {
+    color: #ffc107; /* Amber */
+  }
+  
+  .icon-mortgage-calculator {
+    color: #8bc34a; /* Light Green */
+  }
+  
+  .icon-paypal-fee-calculator {
+    color: #00bcd4; /* Cyan */
+  }
+  
+  .icon-stripe-fee-calculator {
+    color: #ff5722; /* Deep Orange */
+  }
+ .icon-Savings-Calculator{
+    color: #009688;
+  }
+
+  .icon-Todo-List{
+    color: #2693b4;
+  }
+.icon-Budget-Planner{
+    color: #960078;
+}
+
+.icon-Flash-cards{
+    color: #34b426;
+}
+
+.icon-Quiz-Maker{
+    color: #f98a12;
+}
+
+.icon-Workout-Planner{
+    color: #c8c01c;
+}
+
+.icon-ColorPaletteGenerator{
+    color: #d3d00ae5;
+}
+.icon-dropship-fee-calculator{
+  color: #c31e9ae5;
+}
+.icon-QRCodeGenerator{
+  color: #29df35;
+}
+.icon-EmailTwoToneIcon{
+  color: #c26279;
+}
+.icon-AspectRatioTwoToneIcon{
+  color: #1da2c7;
+}
+.icon-FolderZipTwoToneIcon{
+  color: #a5a5a5;
+}
+.icon-AddReactionTwoToneIcon{
+  color: #c71dad;
+}
+
+
+  .section-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #c26279; /* Toolifyco brand color */
+    text-shadow: black 0.1em 0.1em 0.1em;
+    margin-bottom: 20px; /* Margin below the title */
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem; /* Additional margin-bottom for spacing */
+  }
+  
+  .text-center {
+    text-align: center; /* Ensure text is center-aligned */
+  }
+  
+  .d-flex {
+    display: flex; /* Flex display for column alignment */
+  }
+  
+  .flex-column {
+    flex-direction: column; /* Flex direction set to column */
+  }
+  
+  .align-items-center {
+    align-items: center; /* Center alignment for flex items */
+  }
+  
+  .justify-content-center {
+    justify-content: center; /* Center alignment for flex items */
+  }
+  
+  @media (min-width: 576px) {
+    .icon-container {
+      margin-bottom: 40px; /* Space between rows for larger screens */
+    }
+  }
+  
+  
+  
+  
+  

@@ -1,0 +1,55 @@
+/* PayPalFeeCalculator.css */
+.card-title {
+    color: #ff6347; /* Tomato color for the heading */
+}
+
+.result {
+    font-size: 1.5em;
+    color: #28a745; /* Green color for the result */
+    animation: fadeIn 1s ease;
+}
+
+.result-container h3 {
+    margin: 10px 0;
+}
+
+button {
+    transition: background-color 1s ease;
+}
+
+button:hover {
+    background-color: #ff4500; /* Orange red on hover */
+    color: white; /* Change text color to white on hover */
+}
+
+.alert {
+    font-size: 1.1em;
+    animation: shake 0.5s;
+}
+
+.card {
+    background-color: #f0f8ff; /* Light blue background color */
+}
+
+body {
+    background-color: #e9ecef; /* Light grey background color for the entire page */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    50% { transform: translateX(5px); }
+    75% { transform: translateX(-5px); }
+    100% { transform: translateX(0); }
+}
+
+

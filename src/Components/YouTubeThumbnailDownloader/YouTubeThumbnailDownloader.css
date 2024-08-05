@@ -1,0 +1,24 @@
+/* src/YouTubeThumbnail.css */
+
+.thumbnail-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.thumbnail-image:hover {
+    transform: scale(1.05);
+}
+
+button {
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005f8a;
+}
+.card-title {
+    color: #d9534f; /* Red color for heading */
+}

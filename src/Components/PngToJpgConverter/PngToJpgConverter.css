@@ -1,0 +1,52 @@
+/* PngToJpgConverter.css */
+.card-title {
+    color: #ff4500; /* Bright orange color for the heading */
+}
+
+button {
+    transition: background-color 0.5s ease;
+}
+
+button:hover {
+    background-color: #ff6347; /* Tomato color on hover */
+    color: white; /* Change text color to white on hover */
+}
+
+.result-container {
+    animation: fadeIn 1s ease;
+}
+
+.converted-img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.preview-img {
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+    border: 2px dashed #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    background-color: #f0f8ff; /* Light blue background color */
+}
+
+body {
+    background-color: #e9ecef; /* Light grey background color for the entire page */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

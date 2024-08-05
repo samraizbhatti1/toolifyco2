@@ -1,0 +1,127 @@
+.image-resizer {
+    max-width: 800px; /* Set a fixed width for the section */
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .title:hover {
+    color: #007bff;
+  }
+  
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  input[type="file"] {
+    margin: 10px 0;
+  }
+  
+  input[type="number"] {
+    display: inline-block;
+    width: 80px;
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  label {
+    margin: 10px;
+    display: block;
+    font-size: 16px;
+  }
+  
+  select {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .resize-button {
+    padding: 15px 30px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #007bff; /* Primary background color */
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .resize-button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.05);
+  }
+  
+  .spinner {
+    margin-top: 20px;
+  }
+  
+  .image-preview {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffffff; /* White background for image preview */
+    text-align: left;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .image-item {
+    margin-bottom: 20px;
+  }
+  
+  .image-preview img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .download-link {
+    display: block;
+    margin-top: 15px;
+    font-size: 18px; /* Increased font size for better visibility */
+    color: #ffffff;
+    background-color: #28a745; /* Green background color */
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .download-link:hover {
+    background-color: #218838; /* Darker green on hover */
+  }
+  
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin: 10px 0;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

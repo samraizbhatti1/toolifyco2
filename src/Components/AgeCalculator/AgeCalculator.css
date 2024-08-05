@@ -1,0 +1,49 @@
+/* src/AgeCalculator.css */
+body {
+    background-color: #f8f9fa; /* Light background color for the whole page */
+}
+
+.card {
+    border-radius: 15px;
+    background-color: #403b34; /* Dark background for the card */
+}
+
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.card-body {
+    background-color: #495057; /* Slightly lighter dark color */
+    border-radius: 15px;
+}
+
+.display-4 {
+    font-size: 2.5rem;
+    font-weight: 300;
+    color: #007bff;
+}
+
+.age-details {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between each item */
+}
+
+.age-item {
+    font-size: 1.2rem;
+    padding: 10px;
+    border: 1px solid #dee2e6;
+    border-radius: 5px;
+    background-color: #6c757d; /* Slightly different background color for items */
+}
+
+.age-item strong {
+    color: #ffffff;
+}
+
+.text-info {
+    font-size: 1.1rem;
+    font-style: italic;
+}
+

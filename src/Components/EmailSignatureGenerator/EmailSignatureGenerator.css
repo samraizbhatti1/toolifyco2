@@ -1,0 +1,76 @@
+.email-signature-generator {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    transition: color 0.3s ease;
+  }
+  
+  .title:hover {
+    color: #007bff;
+  }
+  
+  .input-fields {
+    margin-bottom: 20px;
+  }
+  
+  .input-fields input {
+    display: block;
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin: 10px auto;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .copy-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .copy-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+  }
+  
+  .signature-preview {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    text-align: left;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .signature-content {
+    padding: 10px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  

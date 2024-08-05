@@ -1,0 +1,95 @@
+/* General Styles */
+.result {
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #f9f9f9 !important;
+}
+
+.card-title {
+    color: rgb(203, 53, 53);
+}
+
+.btn-primary {
+    background-color: red;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #d21d1d;
+    border-color: #004085;
+}
+
+.info-icon {
+    margin-top: 20px;
+    font-size: 2em;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.bmi-graph {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.bmi-graph .bar {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    margin: 2px;
+    border-radius: 5px;
+    background-color: #ddd;
+    position: relative;
+    text-align: center;
+    line-height: 20px;
+    color: #fff;
+}
+
+.bmi-graph .underweight {
+    background-color: #5bc0de;
+}
+
+.bmi-graph .normal {
+    background-color: #5cb85c;
+}
+
+.bmi-graph .overweight {
+    background-color: #f0ad4e;
+}
+
+.bmi-graph .obese {
+    background-color: #d9534f;
+}
+
+.bmi-graph .highlight {
+    border: 2px solid black;
+}
+
+.bg-info {
+    background-color: #17a2b8 !important;
+}
+
+.bg-success {
+    background-color: #28a745 !important;
+}
+
+.bg-warning {
+    background-color: #ffc107 !important;
+}
+
+.bg-danger {
+    background-color: #dc3545 !important;
+}
+
+h4.text-center {
+    font-size: 1.25em;
+}
+
+.list-group-item {
+    color: #fff;
+}

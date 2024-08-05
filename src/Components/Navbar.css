@@ -1,0 +1,22 @@
+#navbar-bg{
+    background-color: #d73259;
+}
+#logo{
+    font-weight: 700;
+    font-size: 35px;
+    color: white;
+}
+.nav-link, .navbar-brand {
+    color: #ffffff !important; /* White color for links and dropdowns */
+}
+.nav-link:hover {
+    color: grey !important; /* Optional: Light grey color on hover */
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+    transition-property: all;
+}
+/* #logo-span{
+    color: #f7ef01;
+} */
+
+
